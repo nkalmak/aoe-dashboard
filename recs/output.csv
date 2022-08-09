@@ -1,0 +1,17 @@
+Map, Arabia
+
+
+GL.TheViper:
+Opening Flags: 0x400
+OpeningType.FeudalScoutOpening, 0x400
+
+
+[aM] Hera:
+Opening Flags: 0x100
+OpeningType.Maa, 0x100
+
+Name, Civ, Color, Team, Victory State, Feudal Time, Castle Time, Imp Time
+GL.TheViper, Spanish, Yellow, 1, Lost, 09:14, N/A ,N/A
+[aM] Hera, Byzantines, Blue, 2, Won, 09:35, N/A ,N/A
+
+Duration, 12:00
