@@ -16,8 +16,7 @@ def download_rec(match):
     except:
         print('non-zip')
 
-if __name__ == "__main__":
-
+def main():
     steam_id = '76561198449406083'
     profile_id = '199325'
         
@@ -38,7 +37,7 @@ if __name__ == "__main__":
                     # if players[player]['steam_id']==f'{steam_id}' and players[player]['civ'] == 9 or players[player]['civ'] == 13:
                     if players[player]['steam_id']==f'{steam_id}':
                         print('downloading rec')
-                        download_rec(matches[index]['match_id'])
+                        # download_rec(matches[index]['match_id'])
                     else:
                         print('HOANG on non-standard civ')
             else:
@@ -48,3 +47,6 @@ if __name__ == "__main__":
 
     # def extract_civ(match):
     #     for index in range(len(match[index]['players']))
+
+if __name__ == "__main__":
+    main()
