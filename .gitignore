@@ -5,3 +5,5 @@ __pycache__/
 .venv/
 .mypy_cache/
 src/aoe_interface.egg-info/
+.src/rec_downloader/recs
+.src/rec_downloader/response.zip
